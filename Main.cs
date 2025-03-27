@@ -35,11 +35,8 @@ namespace TorchTweaker
                 
                 if (Physics.Raycast(GameManager.GetMainCamera().transform.position, GameManager.GetMainCamera().transform.TransformDirection(Vector3.forward), out hit, 2.5f, layerMask))
                 {
-                    MelonLogger.Msg("RayCast emitted");
                     GameObject hitObject = hit.collider.gameObject;
                     string hitObjectName = hitObject.name;
-
-                    MelonLogger.Msg(hitObjectName);
                     
                     if (hitObjectName.StartsWith("GEAR_KeroseneLamp"))
                     {
@@ -53,7 +50,6 @@ namespace TorchTweaker
 
                             if (thisLamp.m_On)
                             {
-                                MelonLogger.Msg("The lamp is ON");
                                 if (currentPlayerManager.m_ItemInHands && currentPlayerManager.m_ItemInHands.m_TorchItem && !currentPlayerManager.m_ItemInHands.IsLitTorch())
                                 {
                                     currentPlayerManager.m_ItemInHands.m_TorchItem.IgniteFromSource(thisLamp.gameObject);
