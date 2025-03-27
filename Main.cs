@@ -33,7 +33,7 @@ namespace TorchTweaker
             if (InputManager.GetKeyDown(InputManager.m_CurrentContext, Settings.settings.interactButton))
             {
                 
-                if (Physics.Raycast(GameManager.GetMainCamera().transform.position, GameManager.GetMainCamera().transform.TransformDirection(Vector3.forward), out hit, 2.5f, layerMask))
+                if (Physics.Raycast(GameManager.GetMainCamera().transform.position, GameManager.GetMainCamera().transform.TransformDirection(Vector3.forward), out hit, 1f, layerMask))
                 {
                     GameObject hitObject = hit.collider.gameObject;
                     string hitObjectName = hitObject.name;

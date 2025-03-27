@@ -3,7 +3,7 @@ using TorchTweaker;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("ModTemplate")]
+[assembly: AssemblyTitle("TorchTweaker")]
 [assembly: AssemblyCopyright("Romain")]
 [assembly: AssemblyVersion("1.0.0")]
 [assembly: AssemblyFileVersion("1.0.0")]
