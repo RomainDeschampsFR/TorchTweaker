@@ -9,3 +9,5 @@ The main goal of the mod is to make torches picked up from fire much less durabl
 
 ## LIT YOUR TORCH FROM LANTERN
 * You can lit your torch from both lantern types by pressing MMB (You have to get pretty close to the lantern).
+
+[![Github All Releases](https://img.shields.io/github/downloads/RomainDeschampsFR/TorchTweaker/total.svg)]()
