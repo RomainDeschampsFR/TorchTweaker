@@ -36,6 +36,19 @@ namespace TorchTweaker
         [Name("Lit from lantern button")]
         [Description("Button to ignite the torch from a lantern")]
         public KeyCode interactButton = KeyCode.Mouse2;
+
+        [Name("Disable LMB : Torch")]
+        [Description("Disable extinguishing of torch on mouseclick")]
+        public bool disableTorch = true;
+
+        [Name("Disable LMB : Lantern")]
+        [Description("Disable extinguishing of lantern on mouseclick")]
+        public bool disableLantern = true;
+
+        protected override void OnConfirm()
+        {
+            base.OnConfirm();
+        }
     }
 
     internal static class Settings
