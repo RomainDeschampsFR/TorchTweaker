@@ -33,15 +33,6 @@ namespace TorchTweaker
             }
         }
 
-        [HarmonyPatch(typeof(TorchItem), nameof(TorchItem.CancelIgnite))]
-        public class TorchItem_CancelIgnite_
-        {
-            public static void PostFix(TorchItem __instance)
-            {
-                MelonLogger.Msg("Cancel ignite");
-            }
-        }
-
         [HarmonyPatch(typeof(TorchItem), nameof(TorchItem.ExtinguishDelayed))]
         public class TorchItemPatch
         {
@@ -55,7 +46,6 @@ namespace TorchTweaker
                 {
                     return true;
                 }
-
             }
         }
 
@@ -77,7 +67,6 @@ namespace TorchTweaker
                 return true;
             }
         }
-
 
         [HarmonyPatch(typeof(KeroseneLampItem), nameof(KeroseneLampItem.Toggle))]
         public class LampItemPatch2
