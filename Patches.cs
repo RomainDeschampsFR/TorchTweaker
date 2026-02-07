@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using HarmonyLib;
 using Il2CppTLD.Gear;
-using UnityEngine.Networking.Types;
 using MelonLoader;
 
 namespace TorchTweaker
