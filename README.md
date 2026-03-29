@@ -12,6 +12,8 @@ The main goal of the mod is to make torches picked up from fire much less durabl
 
 ## DISABLE EXTINGUISHER MOUSE CLICK FOR LANTERN/TORCH
 **LookDontTorch** Mod by DigitalZombie
+<img width="603" height="146" alt="image" src="https://github.com/user-attachments/assets/85681174-5aa4-4959-8a4f-52efbb0ca2ed" />
+
 * Disable the extinguishing of torches and/or lanterns on primary mouseclick. No more accidental darkness when trying to pick something up.
 You can still extinguish by using the "holster" button.
 
